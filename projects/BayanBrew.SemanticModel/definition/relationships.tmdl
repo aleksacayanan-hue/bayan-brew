@@ -1,0 +1,11 @@
+relationship TransactionsToStores
+	fromColumn: 'bayan-brew-transactions'.StoreID
+	toColumn: 'bayan-brew-stores'.StoreID
+
+relationship TransactionsToProducts
+	fromColumn: 'bayan-brew-transactions'.ProductID
+	toColumn: 'bayan-brew-products'.ProductID
+
+relationship TransactionsToDate
+	fromColumn: 'bayan-brew-transactions'.OrderDate
+	toColumn: Date.Date

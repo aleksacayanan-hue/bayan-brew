@@ -1,0 +1,43 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
+  "name": "293a01b2c3d4e5f60718",
+  "position": {
+    "x": 24,
+    "y": 636,
+    "z": 5,
+    "height": 416,
+    "width": 280,
+    "tabOrder": 5
+  },
+  "visual": {
+    "visualType": "slicer",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "bayan-brew-products"
+                    }
+                  },
+                  "Property": "Category"
+                }
+              },
+              "queryRef": "bayan-brew-products.Category",
+              "nativeQueryRef": "Category",
+              "active": true
+            }
+          ]
+        }
+      }
+    },
+    "syncGroup": {
+      "groupName": "BayanBrewCategory",
+      "fieldChanges": true,
+      "filterChanges": true
+    }
+  }
+}

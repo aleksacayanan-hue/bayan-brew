@@ -1,0 +1,33 @@
+table 'bayan-brew-stores'
+
+	column StoreID
+		dataType: string
+		isKey
+		summarizeBy: none
+		sourceColumn: StoreID
+
+	column StoreName
+		dataType: string
+		summarizeBy: none
+		sourceColumn: StoreName
+
+	column City
+		dataType: string
+		summarizeBy: none
+		sourceColumn: City
+
+	column Region
+		dataType: string
+		summarizeBy: none
+		sourceColumn: Region
+
+	partition 'bayan-brew-stores' = m
+		mode: import
+		source =
+				let
+					Source = Csv.Document(File.Contents("D:/Acer/Documents V2/Projects/Power BI Introduction/data/bayan-brew/bayan-brew-stores.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+					PromotedHeaders = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+					ChangedType = Table.TransformColumnTypes(PromotedHeaders, {{"StoreID", type text}, {"StoreName", type text}, {"City", type text}, {"Region", type text}})
+				in
+					ChangedType
+

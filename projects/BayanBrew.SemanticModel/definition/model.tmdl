@@ -1,0 +1,9 @@
+model Model
+	culture: en-US
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: en-US
+
+ref table 'bayan-brew-transactions'
+ref table 'bayan-brew-stores'
+ref table 'bayan-brew-products'
+ref table Date

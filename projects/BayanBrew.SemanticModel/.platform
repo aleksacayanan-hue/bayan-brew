@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "BayanBrew"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "3f8a6c21-9d47-4e05-b6a8-1c2d9e0f5b34"
+  }
+}

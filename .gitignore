@@ -1,0 +1,10 @@
+**/.pbi/localSettings.json
+**/.pbi/cache.abf
+Thumbs.db
+Desktop.ini
+data/**/*.pbix
+
+# Local study notes. Not part of the public portfolio.
+learning-folder/
+guides/
+data/sample-sales.csv

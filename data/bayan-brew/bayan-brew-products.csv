@@ -1,0 +1,16 @@
+ProductID,ProductName,Category,BasePriceSmall
+PR01,Classic Milk Tea,Milk Tea,89
+PR02,Wintermelon Milk Tea,Milk Tea,89
+PR03,Okinawa Milk Tea,Milk Tea,99
+PR04,Taro Milk Tea,Milk Tea,109
+PR05,Brown Sugar Fresh Milk,Signature,129
+PR06,Matcha Latte,Latte,119
+PR07,Coffee Jelly Milk Tea,Milk Tea,109
+PR08,Fruit Tea Green Apple,Fruit Tea,79
+PR09,Fruit Tea Passion,Fruit Tea,79
+PR10,Cheese Foam Jasmine,Premium,139
+PR11,Salted Cream Black Tea,Premium,129
+PR12,Chocolate Oreo Smoothie,Smoothie,119
+PR13,Mango Snow,Smoothie,129
+PR14,Egg Pudding Add-on,Add-on,25
+PR15,Pearl Add-on,Add-on,15

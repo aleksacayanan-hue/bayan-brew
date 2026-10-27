@@ -1,0 +1,43 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
+  "name": "f4b0e81c9e1538d015f6",
+  "position": {
+    "x": 24,
+    "y": 100,
+    "z": 1,
+    "height": 460,
+    "width": 280,
+    "tabOrder": 1
+  },
+  "visual": {
+    "visualType": "slicer",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "bayan-brew-stores"
+                    }
+                  },
+                  "Property": "Region"
+                }
+              },
+              "queryRef": "bayan-brew-stores.Region",
+              "nativeQueryRef": "Region",
+              "active": true
+            }
+          ]
+        }
+      }
+    },
+    "syncGroup": {
+      "groupName": "BayanBrewRegion",
+      "fieldChanges": true,
+      "filterChanges": true
+    }
+  }
+}

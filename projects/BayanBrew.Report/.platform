@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "BayanBrew"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "7c1e4a90-2b6d-4f18-9a33-5e8d0c1b4a72"
+  }
+}

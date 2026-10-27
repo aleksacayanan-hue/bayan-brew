@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.7.0/schema.json",
+  "name": "b8d4f02c5e7193a6f1d2",
+  "position": {
+    "x": 24,
+    "y": 12,
+    "z": 10,
+    "height": 72,
+    "width": 1500,
+    "tabOrder": 0
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "Weekday vs weekend"
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "The top chart sums every day. The lower charts show one typical day. Weekends are busier; weekdays win the total because there are more of them."
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}
